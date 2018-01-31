@@ -1,4 +1,6 @@
+```
 Predict Criminal Challenge
+```
 
 I read the training data, in a pandas data frame and then used correlation matrix to figure out the features
 which affected the target (Criminal) variable.
@@ -15,3 +17,10 @@ model by checking the precision and r2_score which I have commented out in the f
 To build the model I split the training data using train_test_split (85:15) and eliminated features which were hampering
 precision and r2_score.
 
+```
+Accuracy using decision tree:  95.4 %
+Precision Score (binary - default) is:  0.72654155496
+R2 Score:  0.303728902091
+```
+
+I then used the model, to predictions on the unknown test data.
